@@ -32,7 +32,7 @@ public class PatternManagerScript : MonoBehaviour
 
     void Spawn()
     {
-        CurrentlyActive[CurrentlyActiveIndex] = Instantiate(Patterns[Random.Range(0, Patterns.Length)], new Vector3(0, 0, startingDistance), reference.rotation);
+        CurrentlyActive[CurrentlyActiveIndex] = Instantiate(Patterns[Random.Range(0, Patterns.Length)], new Vector3(0, 1, startingDistance), reference.rotation);
         startingDistance += distanceBetween;
         CurrentlyActiveIndex++;
     }
