@@ -9,7 +9,7 @@ public class FloormanagerScript : MonoBehaviour
     public GameObject newFloor;
     public void makeNewFloor()
     {
-        newFloor = Instantiate(obj, Floor.transform.position + new Vector3(0, -0.01f, 1000), Floor.transform.rotation);
+        newFloor = Instantiate(obj, Floor.transform.position + new Vector3(0, -0.01f, 999.5f), Floor.transform.rotation);
     }
 
     public void DestroyFloor()
