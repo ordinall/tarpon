@@ -564,7 +564,6 @@ GameObject:
   - component: {fileID: 3363914}
   - component: {fileID: 2364710}
   - component: {fileID: 54665095674053216}
-  - component: {fileID: 64711983551911946}
   m_Layer: 0
   m_Name: Truck_1_Red
   m_TagString: Enemy
@@ -658,20 +657,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &64711983551911946
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154144}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 07133e3cabf11134da7c74fb066927e3, type: 3}
 --- !u!1 &167224
 GameObject:
   m_ObjectHideFlags: 0

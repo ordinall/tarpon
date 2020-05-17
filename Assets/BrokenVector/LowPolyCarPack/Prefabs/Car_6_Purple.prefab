@@ -324,7 +324,6 @@ GameObject:
   - component: {fileID: 3301594}
   - component: {fileID: 2376108}
   - component: {fileID: 54947304713928584}
-  - component: {fileID: 64799274247638496}
   m_Layer: 0
   m_Name: Car_6_Purple
   m_TagString: Enemy
@@ -413,17 +412,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &64799274247638496
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193646}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: c5f8cfdbf35eea042bfcea749a4e7bc2, type: 3}

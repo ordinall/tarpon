@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3336518}
   - component: {fileID: 2375328}
   - component: {fileID: 54374768619772046}
-  - component: {fileID: 64666190213610194}
   m_Layer: 0
   m_Name: Car_3_Yellow
   m_TagString: Enemy
@@ -101,20 +100,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &64666190213610194
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129146}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 1
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 073447e15be6ecc4ab450c6648929467, type: 3}
 --- !u!1 &145462
 GameObject:
   m_ObjectHideFlags: 0

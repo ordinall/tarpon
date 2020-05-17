@@ -5,23 +5,12 @@ using UnityEngine.UI;
 
 public class easter : MonoBehaviour
 {
-    // Start is called before the first frame update
     int clicks = 1;
     string vertype = "Alpha";
     public Image fishimg;
     public AudioSource music;
     public Text text;
     string[] easterss ={
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
         "Well, hello there",
         "How are you?",
         "Okay, this is a little disturbing",
@@ -38,25 +27,35 @@ public class easter : MonoBehaviour
         "Caramella Girls - Caramelldansen (swedish), if you want the source",
         ";) bye"
     };
-    public void easter_click(){
+    public void easter_click()
+    {
         clicks++;
-        if(clicks <= 9){
-            if(clicks == 4){
+        if (clicks <= 9)
+        {
+            if (clicks == 4)
+            {
                 vertype = "Beta";
             }
-            if(clicks == 8){
+            if (clicks == 8)
+            {
                 vertype = "Stable";
             }
             text.text = "Version 0.0." + clicks + " " + vertype;
-        } else if(clicks < 25){
-            text.text = easterss[clicks];
-            if(clicks == 22){
+        }
+        else if (clicks < 25)
+        {
+            text.text = easterss[clicks-10];
+            if (clicks == 22)
+            {
                 music.Play();
             }
-            if(clicks == 24){
-                fishimg.color = new Color32(255,255,255,202);
+            if (clicks == 24)
+            {
+                fishimg.color = new Color32(255, 255, 255, 202);
             }
-        } else{
+        }
+        else
+        {
             text.text = "";
         }
     }

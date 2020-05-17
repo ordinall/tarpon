@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - floormanager
+  - floorDest
+  - floorSpawn
+  - patterntrigg
   layers:
   - Default
   - TransparentFX
