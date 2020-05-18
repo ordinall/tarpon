@@ -108,7 +108,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 25
+    value: 34.75
   threshold:
     overrideState: 1
     value: 1.42
@@ -158,7 +158,7 @@ MonoBehaviour:
     value: 272
   sampleCount:
     overrideState: 1
-    value: 18
+    value: 11
 --- !u!114 &114491308030257170
 MonoBehaviour:
   m_ObjectHideFlags: 3
