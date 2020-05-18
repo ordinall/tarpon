@@ -9,6 +9,7 @@ public class easter : MonoBehaviour
     string vertype = "Alpha";
     public Image fishimg;
     public AudioSource music;
+    public AudioSource menuMusic;
     public Text text;
     string[] easterss ={
         "Well, hello there",
@@ -47,6 +48,7 @@ public class easter : MonoBehaviour
             text.text = easterss[clicks-10];
             if (clicks == 22)
             {
+                menuMusic.Stop();
                 music.Play();
             }
             if (clicks == 24)
