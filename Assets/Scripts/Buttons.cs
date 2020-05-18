@@ -10,6 +10,11 @@ public class Buttons : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
     public void loadGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
